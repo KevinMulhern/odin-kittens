@@ -1,0 +1,17 @@
+// Place all the styles related to the Kittens controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#error-explanation{
+	color: red;
+}
+
+.alert-success{
+	background-color: green;
+}
+
+.alert-danger{
+	background-color: red;
+	color: #000;
+}

@@ -1,0 +1,5 @@
+<% @kittens.each do |kitten| %>
+	<p><%= link_to kitten.name, kitten %>
+	<span><%= link_to "Delete", kitten, method: "delete" %></span>
+	</p>
+<% end %>
